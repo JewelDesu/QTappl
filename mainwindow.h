@@ -5,7 +5,7 @@
 #include <QChart>
 #include <QLineSeries>
 #include <QChartView>
-#include <curl/curl.h>
+//#include <curl/curl.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -23,5 +23,12 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    std::vector<int> values;
+    QLineSeries* series = new QLineSeries();
+
+private slots:
+    void updateChart();
 };
+
+
 #endif // MAINWINDOW_H

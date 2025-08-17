@@ -50,7 +50,7 @@ public:
         pushButton_2->setGeometry(QRect(670, 670, 161, 61));
         horizontalFrame = new QFrame(centralwidget);
         horizontalFrame->setObjectName("horizontalFrame");
-        horizontalFrame->setGeometry(QRect(20, 20, 811, 621));
+        horizontalFrame->setGeometry(QRect(20, 0, 811, 621));
         horizontalLayout = new QHBoxLayout(horizontalFrame);
         horizontalLayout->setObjectName("horizontalLayout");
         MainWindow->setCentralWidget(centralwidget);

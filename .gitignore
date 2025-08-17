@@ -78,5 +78,5 @@ CMakeLists.txt.user*
 .obj/
 .pch/
 .rcc/
-.uic/
+.uic/./build
 /build*/

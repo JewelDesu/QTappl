@@ -16,7 +16,7 @@ MainWindow::MainWindow(QWidget *parent)
         series->append(i, values[i]);
     }
 
-
+    //add temp fetch for linux
     
     QChart* chart = new QChart();
     chart->addSeries(series);
